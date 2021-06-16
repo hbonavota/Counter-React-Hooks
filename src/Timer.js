@@ -64,7 +64,7 @@ useEffect(() => {
         </div>
         <div className="row">
           <button className={`button button-primary button-primary-${active ? 'active' : 'inactive'}`} onClick={toggle}>
-            {active ? 'Pausa' : 'Start'}
+            {active ? 'Pause' : 'Start'}
           </button>
           <button className="button" onClick={reset}>
             Reset
